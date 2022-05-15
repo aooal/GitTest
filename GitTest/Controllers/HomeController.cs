@@ -11,6 +11,7 @@ namespace GitTest.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "hello";
+            ViewBag.Message = "test";
             return View();
         }
 
